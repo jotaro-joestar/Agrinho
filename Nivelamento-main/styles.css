@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #703a08;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #4382f8;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: rgb(4, 39, 80);
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    text-align: center;
+}
+
+section, aside {
+    background-color: rgb(212, 231, 236);
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(231, 216, 12, 0.979);
+    margin-bottom: 2em;
+}
+
+section {
+    text-align: left;
+}
+
+aside {
+    text-align: left;
+}
+.divisaoimagem{
+   
+
+}
